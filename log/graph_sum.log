@@ -1,0 +1,14 @@
+[2022-09-29 18:58:33,671 INFO] Namespace(batch_size=4, beam_size=5, beta1=0.9, beta2=0.998, block_trigram=True, checkpoint='', data_path='../../data/MultiNews', dec_graph_layers=8, do_val=True, dropout_prob=0.1, enc_graph_layers=2, enc_word_layers=6, eps=1e-09, hidden_size=256, in_tokens=False, initializer_range=0.02, label_smoothing=0.1, length_penalty=0.6, log_file='../log/graph_sum.log', lr=3, lr_scheduler='noam', max_generator_batches=32, max_grad_norm=2.0, max_out_len=300, max_para_len=60, max_para_num=30, max_pos_embed=512, max_tgt_len=300, min_out_len=200, min_topic_words=3, mode='train', model='MDSTopicKVS', model_path='../models', n_heads=8, num_topic_words=10, optimizer='adamw', pos_win=2.0, random_seed=1, report_every=100, report_rouge=True, result_path='../results', save_checkpoint_steps=10000, topic=None, topic_threshold=0.015, train_steps=100000, use_cuda=False, val_steps=10000, vocab_path='../vocab/spm9998_3.model', warmup_prop=0.1, warmup_steps=8000, weight_decay=0.01, weight_sharing=True)
+[2022-09-29 18:58:33,735 INFO] {'BOS': 4, 'EOS': 5, 'PAD': 6, 'EOT': 3, 'EOP': 7, 'EOQ': 8, 'UNK': 0, 'SPACE': 23}
+[2022-09-29 18:58:34,240 INFO] Write model structure to ../models\model.stru
+[2022-09-29 18:58:34,294 INFO] encoder: 6453768
+[2022-09-29 18:58:34,294 INFO] decoder: 14222344
+[2022-09-29 18:58:34,294 INFO] number of parameters: 28900624
+[2022-09-29 18:58:34,294 INFO] Start training...
+[2022-09-29 19:00:53,086 INFO] Namespace(batch_size=4, beam_size=5, beta1=0.9, beta2=0.998, block_trigram=True, checkpoint='', data_path='../data/MultiNews', dec_graph_layers=8, do_val=True, dropout_prob=0.1, enc_graph_layers=2, enc_word_layers=6, eps=1e-09, hidden_size=256, in_tokens=False, initializer_range=0.02, label_smoothing=0.1, length_penalty=0.6, log_file='../log/graph_sum.log', lr=3, lr_scheduler='noam', max_generator_batches=32, max_grad_norm=2.0, max_out_len=300, max_para_len=60, max_para_num=30, max_pos_embed=512, max_tgt_len=300, min_out_len=200, min_topic_words=3, mode='train', model='MDSTopicKVS', model_path='../models', n_heads=8, num_topic_words=10, optimizer='adamw', pos_win=2.0, random_seed=1, report_every=100, report_rouge=True, result_path='../results', save_checkpoint_steps=10000, topic=None, topic_threshold=0.015, train_steps=100000, use_cuda=False, val_steps=10000, vocab_path='../vocab/spm9998_3.model', warmup_prop=0.1, warmup_steps=8000, weight_decay=0.01, weight_sharing=True)
+[2022-09-29 19:00:53,126 INFO] {'BOS': 4, 'EOS': 5, 'PAD': 6, 'EOT': 3, 'EOP': 7, 'EOQ': 8, 'UNK': 0, 'SPACE': 23}
+[2022-09-29 19:00:53,681 INFO] Write model structure to ../models\model.stru
+[2022-09-29 19:00:53,703 INFO] encoder: 6453768
+[2022-09-29 19:00:53,703 INFO] decoder: 14222344
+[2022-09-29 19:00:53,704 INFO] number of parameters: 28900624
+[2022-09-29 19:00:53,704 INFO] Start training...
